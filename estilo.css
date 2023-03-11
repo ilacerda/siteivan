@@ -1,0 +1,103 @@
+
+/* Formatação da Primeira Li
+
+*{
+    color: white;
+}*/
+
+nav{
+    position: relative;
+}
+
+.menu ul:hover > li {
+    background-color: yellow
+    color: red;
+    position: relative;
+}
+.menu ul li{ 
+
+    background:  #6da3f9;  
+    color: #fff;
+    float: left;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    position: relative;
+ 
+  }
+
+  /* Quando ler a prmeira li, jogar para os itens da segunda ul em Bloco, ou seja, uma abaixo da outra*/
+  .menu ul li:hover> ul{ 
+    display: block;
+    font-style: normal;
+  }
+
+/* Passar o Mouser e ficar na cor Selecionada*/
+.menu ul li:hover{
+    background-color: #a1641e;
+    font-style: italic;
+    color: aquamarine;
+
+
+   
+}
+
+
+
+.menu ul ul li:hover{
+    background-color: #4c7fd2;
+    font-style: italic;
+
+   
+}
+
+.menu ul ul ul li:hover{
+    background-color: #7298d5;
+    font-style: italic;
+   
+}
+
+
+
+/*Remover Bolinhas dos Links*/
+a{
+    text-decoration: none;
+}
+
+/*Alinhar os Itens da Primeira UL*/
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Esconder os Itens da Segunda UL*/
+.menu ul ul{
+    display: none;
+}
+
+
+/*Determinar o Tamanho dos Itens da Terceira UL*/
+.menu ul ul ul{
+    margin-left: 251px;
+    top: 4px;
+    position: absolute;
+}
+
+body{
+    
+}
+
+.produto, .preco {
+
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+
+
+
